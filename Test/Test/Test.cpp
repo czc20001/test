@@ -47,6 +47,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     {
         if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
         {		
+			}
 			//이거 보여주려고 어그로 끌엇다.
 
             TranslateMessage(&msg);
