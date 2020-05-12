@@ -47,10 +47,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     {
         if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
         {		
-			if (GetKeyState(VK_LBUTTON))
-			{
-			}
-
+			//이거 보여주려고 어그로 끌엇다.
 
             TranslateMessage(&msg);
             DispatchMessage(&msg);
